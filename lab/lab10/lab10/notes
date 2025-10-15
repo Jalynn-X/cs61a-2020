@@ -1,6 +1,0 @@
-; 注意scm> (define x 3)， scm> (define y (+ x 4))
-; 输入y，应该得到的是3 + 4（因为x已经定义了）
-; (define x (lambda (y) (* y 2)))
-; (x y) 注意这个表达式是call x with y as argument
-; scm> (if (print 1) (print 2) (print 3))
-; 注意输出的是1，2（我之前以为print1返回NONE，导致调用3，其实不是）
